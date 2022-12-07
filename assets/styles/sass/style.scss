@@ -1,0 +1,70 @@
+body {
+    nav {
+        ul {
+            list-style-type: none;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+
+body {
+    header {
+            text-align:center;
+            background-color: #0d2954;
+            padding:1px;
+    }
+}
+
+body {
+    main {
+        min-height: calc(100vh - 10vh);
+        display: flex;
+        align-items:center;
+        justify-content:center;
+    }
+}
+
+img {
+    width:5%;
+    height:5%;
+}
+
+body {
+    nav {
+        ul {
+            li {
+                a {
+                display:block;
+                text-decoration: none;
+                color:white;
+                }
+            }
+        }
+    }
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgba(14, 66, 143, 0.7), rgba(37, 115, 234, 0.7), rgba(14, 66, 143, 0.7)), url("https://res03.sites.3wa.io/assets/files/inte/j9/assets/img/code-portrait.jpg");
+    margin:0;
+}
+
+
+footer {
+    background-color:#010630;
+    color:white;
+    text-align:center;
+    padding:1px;
+}
+
+h2 {
+    color:white;
+}
+
+h3 {
+    color:#8ae7c3;
+}
+
