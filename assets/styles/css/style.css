@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body nav ul {
   list-style-type: none;
   display: grid;
@@ -11,7 +12,8 @@ body header {
 }
 
 body main {
-  min-height: 90vh;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,12 +45,18 @@ footer {
   padding: 1px;
 }
 
-h2 {
+.codopia {
   color: white;
+  text-align: center;
+  font-size: 4rem;
 }
 
-h3 {
+.passion {
   color: #8ae7c3;
+  text-align: center;
+  font-size: 3rem;
 }
+
+/* ↓ cours.html ↓ */
 
 /*# sourceMappingURL=style.css.map */
